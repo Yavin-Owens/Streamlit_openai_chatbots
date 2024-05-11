@@ -2,3 +2,4 @@
 open_ai_chatbot_talk_with_dataframe/Y_secrets/Y_S_secrets.py
 open_ai_chatbot_talk_with_dataframe/Y_secrets/__init__.py
 open_ai_chatbot_talk_with_dataframe/htmlTemplates.py
+open_ai_chatbot_talk_with_dataframe/__pycache__
