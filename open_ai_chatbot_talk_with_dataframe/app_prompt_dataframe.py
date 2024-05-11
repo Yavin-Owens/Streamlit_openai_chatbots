@@ -3,8 +3,7 @@ import streamlit as st
 from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain_openai import ChatOpenAI
-from Y_secrets import Y_S_secrets
-from Y_secrets.Y_S_secrets import Y_key
+
 
 import pandas as pd
 from langchain_openai import OpenAI
