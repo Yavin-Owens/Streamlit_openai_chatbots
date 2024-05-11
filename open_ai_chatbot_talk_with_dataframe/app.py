@@ -24,6 +24,7 @@ df = pd.read_csv(
 
 openai_api_key = Y_key
 
+st.write(df)
 agent = create_pandas_dataframe_agent(
     ChatOpenAI(api_key=openai_api_key,temperature=0, model="gpt-3.5-turbo-0613"),
     df,
@@ -33,7 +34,7 @@ agent = create_pandas_dataframe_agent(
 
 user_input_ = st.text_input(label="Please enter your your prompt",value="What is the average age of the passengers?")
 
-llm = agent
-response = llm(user_input_)     
 
-# st.write(agent.invoke("how many rows are there?"))
+if user_input_:
+    response = agent.invoke(user_input_)  # Ensure the agent has a method `ask` or similar
+    st.write(response)
