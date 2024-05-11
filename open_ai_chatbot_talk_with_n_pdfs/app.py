@@ -14,7 +14,7 @@ from htmlTemplates import css, bot_template, user_template
 
 # API Key for OpenAI. Ensure this is secured and not exposed in production environments.
 # OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-OPENAI_API_KEY = "UPDATE WITH YOUR API KEY"
+OPENAI_API_KEY = ""
 def get_pdf_text(pdf_docs):
     """ Extracts text from uploaded PDF files. """
     text = ""
