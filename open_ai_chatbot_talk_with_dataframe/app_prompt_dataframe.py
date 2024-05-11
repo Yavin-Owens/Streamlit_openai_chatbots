@@ -36,5 +36,5 @@ user_input_ = st.text_input(label="Please enter your your prompt",value="What is
 
 
 if user_input_:
-    response = agent.invoke(user_input_)  # Ensure the agent has a method `ask` or similar
+    response = agent.invoke(user_input_)
     st.write(response)
