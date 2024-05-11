@@ -11,7 +11,7 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64("pic_res/jam_sunset.jpeg")
+img = get_img_as_base64("/workspaces/streamlit_custom_background/css_streamlit/pic_res/jam_sunset.jpeg")
 
 page_bg_img = f"""
 <style>
