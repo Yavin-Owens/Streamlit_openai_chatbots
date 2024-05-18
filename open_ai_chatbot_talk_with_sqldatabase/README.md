@@ -52,17 +52,17 @@ This application allows users to interact with their SQL databases through a con
 1. **Ask a Question**:
    - Users can ask questions like can you create validation rules for HR that are aligned with PII and GDPR rule for  this table. create 5 rules for each column ensure each column has 10 validation rules as a minimum" or "How many employees were hired in the last year?".
 
-   ![alt text](open_ai_chatbot_talk_with_sqldatabase/imgs/image.png)
+   ![alt text](imgs/image.png)
 
 2. **Receive Results**:
    - The app processes the question, converts it into an SQL query, executes the query on the database, and displays the results.
 
-   ![alt text](open_ai_chatbot_talk_with_sqldatabase/imgs/image-1.png)
+   ![alt text](imgs/image-1.png)
 
 3.  **CLI Example**:
     - Using `verbose = True` in your script will result in the following
 
-   ![alt text](open_ai_chatbot_talk_with_sqldatabase/imgs/image-2.png)
+   ![alt text](imgs/image-2.png)
 
 ## Conclusion
 
