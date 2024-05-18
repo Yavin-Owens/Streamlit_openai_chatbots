@@ -1,5 +1,5 @@
 
-# Chat with Websites
+# Talk with Websites
 
 This application allows users to interact with website content through a conversational interface. Leveraging FAISS for vector storage and OpenAI for embeddings and chat models, the app enables users to upload a website URL, process its content, and engage in a meaningful dialogue about the content.
 
