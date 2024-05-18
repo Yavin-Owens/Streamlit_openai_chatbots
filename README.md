@@ -66,18 +66,15 @@ Uses the retriever and RAG chains to generate a response to the user's input, le
 
 1. **Input a Website URL**
 
-   ![Website URL Input](images/website_url_input.png)
+![alt text](image-1.png)
 
-2. **Processing Content**
 
-   ![Processing Spinner](images/processing_spinner.png)
+2. **Ask Questions**
 
-3. **Ask Questions**
-
-   ![Chat Interface](images/chat_interface.png)
+![alt text](image.png)
 
 ## Conclusion
 
 This app provides a powerful way to interact with web content through a conversational interface. By leveraging FAISS and OpenAI technologies, it offers efficient and context-aware responses to user queries.
 
-For any issues or feature requests, please open an issue on the project's [GitHub repository](https://github.com/your-repo).
+For any issues or feature requests, please open an issue on the project's repo.
