@@ -66,12 +66,12 @@ Uses the retriever and RAG chains to generate a response to the user's input, le
 
 1. **Input a Website URL**
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 
 2. **Ask Questions**
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## Conclusion
 
